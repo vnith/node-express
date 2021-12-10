@@ -1,0 +1,22 @@
+{
+  "env": {
+    "jest": true
+  },
+  "parser": "@babel/eslint-parser",
+  "plugins": [
+    "jest"
+  ],
+  "extends": [
+    "airbnb-base",
+    "eslint:recommended",
+    "plugin:jest/recommended"
+  ],
+  "rules": {
+    "max-len": [1, {
+      "code": 120,
+      "ignoreComments": true,
+      "ignoreUrls": true,
+      "ignoreRegExpLiterals": true
+    }]
+  }
+}
